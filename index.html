@@ -10,7 +10,7 @@
 </head>
 
 <body style="margin-top:-80px">
-  <nav class="collapsed navbar navbar-toggleable-md navbar-dark sticky-top">
+  <nav class="navbar navbar-toggleable-md navbar-dark sticky-top">
     <div class="container">
 
 
@@ -107,13 +107,16 @@
   <script>
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
+        console.log("scrool");
         if (scroll > 16) 
-          $(".navbar").first().addClass("scrolled");
+          $(".navbar").first().addClass("collapsed");
         else
-          $(".navbar").first().removeClass("scrolled");
+          $(".navbar").first().removeClass("collapsed");
   
   	  });
   </script>
+
+
 
 
 
