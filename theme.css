@@ -6131,3 +6131,9 @@ body > * {
   border-bottom: 5px solid #5e7ab1; }
   .navbar .active {
     border-bottom: 2px solid #5e7ab1; }
+
+.navbar.collapsed {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  height: 90px; }
+  .navbar.collapsed img {
+    width: 50%; }
