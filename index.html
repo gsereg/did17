@@ -6,6 +6,16 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
   <link rel="stylesheet" href="theme.css">
+  <script>
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if (scroll > 16) 
+          $(".navbar").first().addClass("scrolled");
+        else
+          $(".navbar").first().removeClass("scrolled");
+  
+  	  });
+  </script>
 </head>
 
 <body style="margin-top:-80px">
@@ -103,6 +113,8 @@
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
+
+
 
 
 
