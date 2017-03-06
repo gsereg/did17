@@ -981,14 +981,12 @@ body > * {
 
 
 .navbar {
+    background-color: rgba(255,255,255,0.9) !important;
   border-bottom :5px solid $brand-primary; 
   .active {
       border-bottom :2px solid $brand-primary; 
   }
-  
         transition: all 500ms cubic-bezier(0.000, 0.000, 0.580, 1.000); /* ease-out */
-
-
 }
 
 
