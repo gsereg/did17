@@ -6128,7 +6128,9 @@ body > * {
   justify-content: center; }
 
 .navbar {
-  border-bottom: 5px solid #5e7ab1; }
+  border-bottom: 5px solid #5e7ab1;
+  transition: all 500ms cubic-bezier(0, 0, 0.58, 1);
+  /* ease-out */ }
   .navbar .active {
     border-bottom: 2px solid #5e7ab1; }
 
