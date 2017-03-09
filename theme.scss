@@ -991,7 +991,7 @@ body > * {
      	height: 140px;
       transition: all 200ms cubic-bezier(0.000, 0.000, 0.580, 1.000); /* ease-out */ 
   }
-  height: 190px;
+  min-height: 190px;
 }
 
 
@@ -1001,7 +1001,7 @@ body > * {
 	img {
     height: 60px;
   }
-  height: 90px;
+  min-height: 90px;
 }
 
 
