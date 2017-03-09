@@ -1215,7 +1215,7 @@ body {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
-  color: #292b2c;
+  color: #414042;
   background-color: #fff; }
 
 [tabindex="-1"]:focus {
@@ -2155,7 +2155,7 @@ tbody.collapse.show {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #292b2c;
+  color: #414042;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -3441,7 +3441,7 @@ a.badge:hover {
     text-decoration: none;
     background-color: #f7f7f9; }
   .list-group-item-action:active {
-    color: #292b2c;
+    color: #414042;
     background-color: #eceeef; }
 
 .list-group-item {
