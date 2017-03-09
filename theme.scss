@@ -111,8 +111,8 @@ $gray-lighter:              #eceeef !default;
 $gray-lightest:             #f7f7f9 !default;
 
 // Reassign color vars to semantic color scheme
-$brand-primary:             #5e7ab1;
-$brand-success:             #00a1c6;
+$brand-primary:             #0083b1;
+$brand-success:             #4decff;
 $brand-info:                $teal !default;
 $brand-warning:             $orange !default;
 $brand-danger:              $red !default;
@@ -995,19 +995,10 @@ body > * {
 }
 
 
-.navbar.collapsed {
-  background-color: rgba(255,255,255,0.9) !important;
-	
-	img {
-    height: 60px;
-  }
-
-  min-height: 60px;
-}
 
 
 .navbar {
-   position: relative;
+
     display: flex;
     flex-direction: column;
     padding: $navbar-padding-y $navbar-padding-x;
@@ -1020,3 +1011,14 @@ body > * {
    }
   }
 
+
+
+.navbar.collapsed {
+  background-color: rgba(255,255,255,0.9) !important;
+	
+	img {
+    height: 60px;
+  }
+	padding:0px;
+  min-height: 60px;
+}
