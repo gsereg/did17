@@ -414,8 +414,8 @@ Vanta molti anni di esperienza del settore commerciale e di grande conoscenza de
 
   <script>
     $(".card p").hide();
-    alert($(".card p").length);
-     $(".card").on("click", function(e) {
+    $(".card").css("cursor","pointer");
+    $(".card").on("click", function(e) {
        var $c = $(this);
        var $m = $(".modal");
        $m.find(".modal-body").html($c.html());
