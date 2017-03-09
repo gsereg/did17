@@ -6145,3 +6145,13 @@ body > * {
   min-height: 60px; }
   .navbar.collapsed img {
     height: 60px; }
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem; }
+  @media (max-width: 575px) {
+    .navbar > .container {
+      margin-right: 0;
+      margin-left: 0; } }
