@@ -2715,7 +2715,7 @@ tbody.collapse.show {
 
 .navbar-toggler {
   align-self: flex-start;
-  padding: 0.25rem 0.75rem;
+  padding: 0.55rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
   background: transparent;
@@ -6132,7 +6132,7 @@ body > * {
   border-bottom: 5px solid #5e7ab1;
   transition: all 400ms cubic-bezier(0, 0, 0.58, 1);
   /* ease-out */
-  height: 190px; }
+  min-height: 190px; }
   .navbar .active {
     border-bottom: 2px solid #5e7ab1; }
   .navbar img {
@@ -6142,6 +6142,16 @@ body > * {
 
 .navbar.collapsed {
   background-color: rgba(255, 255, 255, 0.9) !important;
-  height: 90px; }
+  min-height: 60px; }
   .navbar.collapsed img {
     height: 60px; }
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem; }
+  @media (max-width: 575px) {
+    .navbar > .container {
+      margin-right: 0;
+      margin-left: 0; } }
