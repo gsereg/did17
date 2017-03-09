@@ -6147,7 +6147,6 @@ body > * {
     height: 60px; }
 
 .navbar {
-  position: relative;
   display: flex;
   flex-direction: column;
   padding: 2rem 1rem; }
