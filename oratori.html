@@ -389,10 +389,40 @@ Vanta molti anni di esperienza del settore commerciale e di grande conoscenza de
 
 
 
+
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 
+
+
+
+  <div class="modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close ml-auto" data-dismiss="modal" type="button">×</button>
+
+        </div>
+        <div class="modal-body">
+          <p>One fine body...</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    $(".card p").hide();
+    $(".card").css("cursor","pointer");
+    $(".card").on("click", function(e) {
+       var $c = $(this);
+       var $m = $(".modal");
+       $m.find(".modal-body").html($c.html());
+       	$m.find(".modal-body p").show();
+				$m.modal('show');
+     });
+  </script>
 
 
 
