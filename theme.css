@@ -6157,6 +6157,6 @@ body > * {
     height: 60px; }
 
 .card img {
-  min-width: 100%;
-  width: auto;
-  height: auto; }
+  min-width: 100% !important;
+  width: auto !important;
+  height: auto !important; }
