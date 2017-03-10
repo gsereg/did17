@@ -112,7 +112,7 @@ $gray-lightest:             #f7f7f9 !default;
 
 // Reassign color vars to semantic color scheme
 $brand-primary:             #0083b1;
-$brand-success:             #4decff;
+$brand-success:             #50b6c3;
 $brand-info:                $teal !default;
 $brand-warning:             $orange !default;
 $brand-danger:              $red !default;
@@ -182,7 +182,7 @@ $sizes: (
 // Settings for the `<body>` element.
 
 $body-bg:       $white !default;
-$body-color:    $gray-dark !default;
+$body-color:    #414042;
 $inverse-bg:    $gray-dark !default;
 $inverse-color: $gray-lighter !default;
 
@@ -1021,4 +1021,9 @@ body > * {
   }
 	padding:0px;
   min-height: 60px;
+}
+
+
+.card  {
+display: block;
 }
